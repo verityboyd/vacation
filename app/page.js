@@ -1,14 +1,15 @@
 import SiteHeader from "./components/SiteHeader.js";
 import Snacks from "./components/Snacks.js";
+import Rides from "./components/Rides.js";
+import Welcome from "./components/Welcome.js";
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
-      HeaderComponent
       <SiteHeader />
-      WelcomeSection
+      <Welcome />
+      <Rides />
       <Snacks />
-      Another Section Component
     </main>
   );
 }
